@@ -1,5 +1,5 @@
 // clean up
-document.all[0].getAttributeNames().forEach(it=>it!='lang'?document.all[0].removeAttribute(it):'')
+document.all[0].getAttributeNames().forEach(it=>it!='lang'?document.all[0].removeAttribute(it):'');
 [...document.querySelectorAll('link')].filter(it=>{
     return (!it.className.match(/style_1/ig) && (it.innerHTML.match(/blogger/ig) || it.href.match(/blogger/ig)))
 }).forEach(it=>it.remove());
