@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["script_1.js"],"sourcesContent":["\r\nwindow.addEventListener(\"resize\", () => {\r\n  document.documentElement.style.setProperty(\r\n    '--tmp-height',\r\n    (document.documentElement.clientHeight - document.documentElement.clientHeight * .0002) + 'px'\r\n  );\r\n});\r\n\r\n"],"file":"script_1.js"}
