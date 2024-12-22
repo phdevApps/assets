@@ -727,7 +727,7 @@ body .main_container main .works_section__content .card__preview {
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
-  background-image: url(/imgs/thum1.jpg);
+  background-image: url('../imgs/thum1.jpg');
   aspect-ratio: 1.4;
 }
 body .main_container main .works_section__content .card__content {
